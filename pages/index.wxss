@@ -1,0 +1,157 @@
+/* *{
+	margin: 0;
+	padding:0;
+} */
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #191919;
+	font-size: 62.5%;
+	font-family: 黑体;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	position: relative;
+}
+
+.container img{
+	width: calc(100% - 3rem);
+	margin-top: 2rem;
+}
+
+.bottomimg{
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 2rem;
+}
+
+.text{
+ 	color: #fff;
+ 	font-size: 3.6rem;
+ 	color:#bfad6f;
+ 	text-align: center;
+ 	margin-top: 1.6rem;
+}
+
+.text1{
+ 	color: #fff;
+ 	font-size: 3.6rem;
+ 	color:#bfad6f;
+ 	margin-top: 1.6rem;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  width: 100%; /* 可以根据需要设置容器的宽度 */
+  height: 100%; /* 可以根据需要设置容器的高度 */
+}
+
+.text3{
+  color: #fff;
+  font-size: 3.6rem;
+  color:#bfad6f;
+  text-align: center;
+  margin-top: 0.6rem;
+  width: 100%; /* 可以根据需要设置容器的宽度 */
+}
+
+.text4{
+  color: #fff;
+  font-size: 3.6rem;
+  /* color:#bfad6f; */
+  text-align: center;
+  margin-top: 0.2rem;
+  width: 100%; /* 可以根据需要设置容器的宽度 */
+}
+
+.answer{
+  color: #fff;
+  font-size: 1.6rem;
+  color:#bfad6f;
+  margin-top: 1.6rem;
+}
+
+.btn{
+  color: #fff;
+  color:#bfad6f;
+  background-color: transparent;
+  border: 1rpx solid #eddc72;
+  font-family: "Arial", "SimHei", sans-serif;
+  letter-spacing: 5px;
+}
+
+.jinrubutton{
+	width: calc(100% - 8.0rem);
+	height: 2.8rem;
+	border:.2rem solid #bfad6f;
+	color: #bfad6f;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 2.8rem;
+ 	margin-top: 20%;
+ 	margin-bottom: 10rem;
+}
+
+.meteor {
+  width: 2px;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #bfad6f);
+  position: absolute;
+  top: -60px;
+  animation: meteor-fall 3s linear infinite;
+  transform: rotate(-60deg); /* 添加旋转属性 */
+}
+
+.meteor1 {
+  /* 自定义样式 */
+  top: -30px;
+  left: -50px;
+  height: 100px;
+  animation: meteor-fall 4s linear infinite;
+}
+
+.meteor2 {
+  /* 自定义样式 */
+  top: -100px;
+  left: -50px;
+  height: 150px;
+  animation: meteor-fall 3s linear infinite;
+}
+
+.meteor3 {
+  /* 自定义样式 */
+  top: -30px;
+  left: -40px;
+  height: 70px;
+  animation: meteor-fall 2.5s linear infinite;
+}
+
+.meteor4 {
+  /* 自定义样式 */
+  top: -100px;
+  left: -100px;
+  height: 120px;
+  animation: meteor-fall 2s linear infinite;
+}
+
+.meteor4 {
+  /* 自定义样式 */
+  top: -160px;
+  left: -120;
+  height: 80px;
+  animation: meteor-fall 5s linear infinite;
+}
+
+@keyframes meteor-fall {
+  to {
+    transform: translateX(120vw) translateY(35vh) rotate(-60deg);
+  }
+}

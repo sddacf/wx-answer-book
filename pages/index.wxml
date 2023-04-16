@@ -1,0 +1,16 @@
+
+<view class="container" style="background-image: url({{backgroundUrl}}); background-size: {{backgroundSize}};">
+  <div class="meteor meteor1"></div>
+  <div class="meteor meteor2"></div>
+  <div class="meteor meteor3"></div>
+  <div class="meteor meteor4"></div>
+  <div class="meteor meteor5"></div>
+  <view class="text1" style="font-size: {{fontSize/2}}rpx; position: absolute; top: {{e_text_top}}vw;">THE BOOK OF ANSWERS</view>
+  <view class="text" style="font-size: {{fontSize}}rpx; position: absolute; top: {{c_text_top}}vw;">答案之书</view>
+  <view class="text-container" style="margin-top: {{p_text_top}}vw;">
+    <view class="text3" style="font-size: {{fontSize/2}}rpx;">向宇宙传达你内心的问题</view>
+    <view class="text3" style="font-size: {{fontSize/2}}rpx;">宇宙将回予你以答案</view>
+    <view id="countdown-text" class="text4" style="font-size: {{fontSize*2}}rpx;">{{countdownText}}</view>
+  </view>
+  <button bindtap="goAnswerPage" class=".btn" style="position: absolute; bottom: {{btn_bottom}}vw;">获取答案</button>
+</view>

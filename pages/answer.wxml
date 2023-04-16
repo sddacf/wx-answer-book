@@ -1,0 +1,7 @@
+<view class="container" style="background-image: url({{backgroundUrl}}); background-size: {{backgroundSize}};">
+  <view class="answer-container" style="margin-top: {{answer_top}}vw;">
+    <text class="answer" style="font-size: {{fontSize}}rpx;">{{typingAnimationData}}</text>
+    <text class="answer" style="font-size: {{fontSize/1.5}}rpx;">{{typingAnimationData2}}</text>
+  </view>
+  <button bindtap="goIndexPage" class=".btn" style="position: absolute; bottom: {{btn_bottom}}vw;">再次提问</button>
+</view>
